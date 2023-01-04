@@ -1,0 +1,72 @@
+/*=======================
+       Google fonts
+ ========================*/
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+ /*=======================
+         Global css
+  ========================*/
+ body{
+    font-family: 'Titillium Web', sans-serif;
+ }
+ a{
+   text-decoration: none;
+ }
+ html,body{
+  scroll-behavior: smooth;
+ }
+
+ div{
+    text-align: center;
+    color: #d5d5d5;
+    flex-grow: 1;
+ }
+ .container{
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 100%;
+ }
+ .one{
+  background-color: red;
+ }
+ .two{
+    background-color: yellow;
+ }
+ .three{
+    background-color: cyan;
+ }
+ .four{
+    background-color: skyblue;
+ }
+ .five{
+    background-color: blue;
+ }
+ .six{
+    background-color: green;
+ }
+ .seven{
+    background-color: skyblue;
+ }
+ .eight{
+    background-color: cyan;
+ }
+ .nine{
+   background-color: blue;
+ }
+ .ten{
+    background-color: green;
+ }
+ .eleven{
+    background-color: red;
+ }
+ .twelve{
+    background-color: yellow;
+ }
+
+ @media (min-width: 320px) and (max-width: 576px){
+    .container{
+    flex-direction: column;
+    flex-basis: 100%;
+    flex-grow: 1;
+   }
+ }
